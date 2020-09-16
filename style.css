@@ -32,8 +32,9 @@ body{
         border-radius:50%;
         position:fixed;
         margin-top:100px;
-        margin-left:612.5px;
+        margin-left:50%;
         cursor:pointer;
+        transform: translateX(-50%);
 }
 
 .title{
