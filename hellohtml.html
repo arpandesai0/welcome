@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title >Photoshoot</title>
+    <script>
+     function displayInput()
+     {
+     var testInput = document.getElementById("name").value;
+     if (testInput=="arpan")
+        {
+        document.getElementById("pic").src="aa.jpg";
+        }
+     if (testInput=="rushabh")
+        {
+        document.getElementById("pic").src="RD.jpg";
+        }
+     }
+    </script>
+</head>
+<body>
+ <h1 style="color:blue" >This is my first html page</h1>
+ <input id="name" type="text"/>
+ <button onclick="displayInput();"> <img src="a.png" style="height:50px;width:160px;background-color:white;background-size:100%"></button>
+ <br>
+ <img id="pic" style="height:200px"/>
+ <p id="para"> </p>
+</body>
+</html>

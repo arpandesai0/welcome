@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="welcome.css">
+
+</head>
+<body>
+    <p id = "welcome">Hello <span id ="userr"></span> Welcome to New Era</p>
+    <script> document.getElementById("userr").innerHTML = localStorage.getItem("logname");</script>
+</body>
+</html>
